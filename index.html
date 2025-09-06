@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 – Dynamic Web Fundamentals – Percy Yarleque</title>
+  <meta name="description" content="This is the WDD 131 – Dynamic Web Fundamentals home page of Percy Yarleque. It includes a personal biography, information about Lima, Peru, and useful web development resources.">
+  <meta name="author" content="Percy Yarleque">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/base.css">
+  <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <span id="course-title">WDD 131: Dynamic Web Fundamentals - <span class="highlight">Percy Yarleque</span></span>
+    <nav>
+      <a href="https://www.linkedin.com/in/percyyarleque/" target="_blank">LinkedIn</a>
+      <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">Scripture</a>
+      <a href="#">Final Project</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="name-title">Percy Yarleque</h1>
+
+    <section class="card card-about">
+      <h2>About Me</h2>
+      <div class="card-content reverse">
+        <p>
+          My name is Percy Yarleque. I live in Lima, Peru, and I am passionate about technology and continuous learning. 
+          I enjoy web development, programming, and solving creative challenges. 
+          I love learning new skills, sharing knowledge, and exploring how technology can improve people's lives.
+        </p>
+        <img src="images/percy.jpg" alt="Photo of Percy Yarleque">
+      </div>
+      
+      <h3>Lima, Peru</h3>
+      <div class="card-content">
+        <div class="image-container">
+          <img src="images/lima.jpg" alt="View of Lima, Peru">
+          <p class="image-caption">
+            This is a beautiful view of Lima, showing its skyline and coastal area.
+          </p>
+        </div>
+        
+        <div class="text-center">
+          <p>
+            Lima is the capital of Peru and a vibrant city located on the Pacific coast. 
+            It is known for its history, colonial architecture, and world-famous gastronomy. 
+            Some of its main attractions include the Historic Center, the Park of Love, and the Magic Water Circuit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card card-resources">
+      <h2>Web Dev Resources</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+        <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+        <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="currentyear"></span> ⭐Percy Yarleque⭐ Lima, Peru</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
