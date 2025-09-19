@@ -11,8 +11,6 @@
     .hero img {
         width: 100%;
         height: auto;
-        mask-image: linear-gradient(var(--peru-red) 90%, transparent);
-        pointer-events: none;
     }
 
     .hero-section {
