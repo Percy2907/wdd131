@@ -95,7 +95,6 @@ header {
   display: block;
 }
 
-/* Efecto degradado en la imagen */
 .hero::after {
   content: "";
   position: absolute;

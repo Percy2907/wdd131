@@ -39,7 +39,7 @@
     .weather {
         position: absolute;
         padding: 0 0 20px 0;
-        background-color: rgba(255, 255, 255, 0.9); /* Blanco translúcido */
+        background-color: rgba(255, 255, 255, 0.9);
     }
 
     .data {
