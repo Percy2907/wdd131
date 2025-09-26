@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtered Temple Album | Percy Yarleque</title>
+  <meta name="description" content="Filtered Temple Album project by Percy Yarleque for WDD 131. Explore temples dynamically with filters and lazy loading.">
+  <meta name="author" content="Percy Yarleque">
+
+  <link rel="stylesheet" href="styles/filtered-temples.css">
+  <link rel="stylesheet" href="styles/filtered-temples-large.css">
+  <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Temple Album</h1>
+    <button id="menu" aria-label="Menu">&#9776;</button>
+    <nav id="navMenu">
+      <a href="#" id="home">Home</a>
+      <a href="#" id="old">Old</a>
+      <a href="#" id="new">New</a>
+      <a href="#" id="large">Large</a>
+      <a href="#" id="small">Small</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 id="filterTitle">Home</h2>
+    <div id="temple-cards" class="gallery"></div>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="year"></span> ⭐Percy Yarleque⭐ Lima, Peru</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
